@@ -24,21 +24,6 @@ sections:
   label: Home
   templates:
   - home
-- type: document
-  path: content/blog/_index.md
-  label: Blog
-  templates:
-  - blog
-- type: document
-  path: content/portfolio/_index.md
-  label: Main_Gallery
-  templates:
-  - portfolio
-- type: document
-  path: content/contact.md
-  label: Contact
-  templates:
-  - contact
 - type: directory
   path: content
   label: Page
@@ -47,6 +32,11 @@ sections:
   exclude: "{posts/**,_index.md,blog/_index.md,portfolio/_index.md,contact.md}"
   templates:
   - page
+- type: document
+  path: content/blog/_index.md
+  label: Blog
+  templates:
+  - blog
 - type: directory
   path: content/posts
   label: Post
@@ -54,6 +44,11 @@ sections:
   match: "**/*"
   templates:
   - post
+- type: document
+  path: content/portfolio/_index.md
+  label: Main_Gallery
+  templates:
+  - portfolio
 - type: directory
   path: content/projects
   label: Gallery_individual
@@ -61,6 +56,11 @@ sections:
   match: "**/*"
   templates:
   - project
+- type: document
+  path: content/contact.md
+  label: Contact
+  templates:
+  - contact
 upload_dir: static/images
 public_path: "/images"
 front_matter_path: ''
