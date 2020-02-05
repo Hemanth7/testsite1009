@@ -1,4 +1,20 @@
 ---
 label: Gallery_Main
 hide_body: true
-fields: []
+fields:
+- name: title_gallery_main
+  type: text
+  config:
+    required: false
+  label: Title
+  description: main gallery title
+- name: list_lable
+  type: list
+  config:
+    use_select: true
+    min: 
+    max: 
+    source:
+      type: simple
+  label: List_lable
+  description: sorting list for gallery
