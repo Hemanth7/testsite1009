@@ -8,13 +8,19 @@ fields:
     required: false
   label: Title
   description: main gallery title
-- name: list_lable
-  type: list
+- name: subtitle
+  type: textarea
+  default: ''
   config:
-    use_select: true
-    min: 
-    max: 
-    source:
-      type: simple
-  label: List_lable
-  description: sorting list for gallery
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Subtitle
+  description: subtitle description
+- name: pictures
+  type: include
+  config: {}
+  template: portfolio
+  label: Pictures
+  description: Add pictures here_main
