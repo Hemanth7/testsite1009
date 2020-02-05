@@ -12,6 +12,11 @@ fields:
   name: subtitle
   label: Subtitle
   description: The text shown just below the page title.
+- name: tags_portfolio
+  type: tag_list
+  default: []
+  label: Tags
+  description: 'Tags for better classification '
 - type: select
   name: layout_style
   label: Layout Style
