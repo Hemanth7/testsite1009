@@ -11,8 +11,11 @@ params:
   footer:
     content: Powered by Me!
     links:
-    - text: Made with Stackbit
-      url: https://www.stackbit.com
+    - text: Made on Hugo
+      url: https://www.gohugo.io
+      new_window: true
+    - text: Managed on Forestry.io
+      url: https://app.forestry.io/
       new_window: true
     has_social: true
 disableKinds:
