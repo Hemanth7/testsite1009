@@ -25,10 +25,15 @@ fields:
   name: content_img_path
   label: Alternative Featured Image
   description: The image shown in the single project.
+- name: image_gallery
+  type: image_gallery
+  config: {}
+  label: Image_Gallery
+  description: Upload same themed images
 - type: text
   name: layout
   label: Layout
-  hidden: true
+  hidden: false
   default: project
   config:
     required: true
