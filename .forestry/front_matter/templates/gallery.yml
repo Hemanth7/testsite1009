@@ -1,4 +1,15 @@
 ---
 label: Gallery
 hide_body: true
-fields: []
+fields:
+- name: gallery_title
+  type: text
+  config:
+    required: false
+  label: Gallery Title
+  description: Gallery description
+- name: pictures_group
+  type: image_gallery
+  config: {}
+  label: Pictures
+  description: Upload several picures
