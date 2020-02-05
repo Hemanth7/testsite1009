@@ -3,7 +3,7 @@ title: WanderVogel
 baseURL: "/"
 params:
   color_scheme: light
-  accent_color: pink
+  accent_color: violet
   header:
     title: Exto
     has_nav: true
