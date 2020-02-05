@@ -17,9 +17,11 @@
         <img src="{{ .Params.content_img_path | relURL }}" alt="{{ .Params.title }}" />
       </div><!-- .post-thumbnail -->
       {{ end }}
-      {{ range .Params.image_gallery }}
+      <ul>
+        {{ range .Params.image_gallery }}
        <li><img src="{{ .Params.image_gallery | relURL }}"></li>
       {{ end }}
+      </ul>
       <div class="post-content inner-small">
         {{ .Content }}
       </div><!-- .post-content -->
