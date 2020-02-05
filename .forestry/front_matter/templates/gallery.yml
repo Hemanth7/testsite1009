@@ -13,3 +13,5 @@ fields:
   config: {}
   label: Pictures
   description: Upload several picures
+pages:
+- content/gallery/gallery.md
