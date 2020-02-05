@@ -13,7 +13,7 @@ sections:
   - gallery
 - type: document
   path: content/gallery/_index.md
-  label: Gallery_Main
+  label: Gallery Main
 - type: document
   path: config.yaml
   label: Global Site Config
