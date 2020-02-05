@@ -5,12 +5,16 @@ admin_path: static/admin
 webhook_url: https://api.stackbit.com/project/5e3a26c266046b0019ac06f8/webhook/forestry
 sections:
 - type: directory
-  path: content/gallery/_index.md
+  path: content/gallery
   label: Gallery
   create: all
   match: "**/*"
   templates:
   - gallery
+- type: document
+  path: content/gallery/_index.md
+  label: Gallery_Main
+  match: "**/*"
 - type: document
   path: config.yaml
   label: Global Site Config
