@@ -30,6 +30,17 @@ fields:
   config: {}
   label: Image_Gallery
   description: Upload same themed images
+- type: select
+  name: layout_style
+  label: Layout Style
+  description: The style of the portfolio layout.
+  default: mosaic
+  config:
+    source:
+      type: custom
+    options:
+    - mosaic
+    - tiles
 - type: text
   name: layout
   label: Layout
