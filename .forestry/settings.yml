@@ -31,7 +31,7 @@ sections:
   - blog
 - type: document
   path: content/portfolio/_index.md
-  label: Portfolio
+  label: Main_Gallery
   templates:
   - portfolio
 - type: document
@@ -56,7 +56,7 @@ sections:
   - post
 - type: directory
   path: content/projects
-  label: Project
+  label: Gallery_individual
   create: all
   match: "**/*"
   templates:
